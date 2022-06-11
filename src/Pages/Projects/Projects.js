@@ -9,7 +9,7 @@ const Projects = () => {
         <div className='lg:p-20'>
             <h2 className=' text-4xl text-white py-10 font-serif font-semibold'>My Recent Projects</h2>
             <div className='lg:flex flex-row justify-around gap-20'>
-                <div class="card bg-accent text-secondary shadow-xl mb-10">
+                <div class="card w-96 bg-accent text-secondary shadow-xl mb-10">
                     <figure class="">
                         <img src={img3} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -21,7 +21,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card bg-accent text-secondary shadow-xl mb-10">
+                <div class="card w-96 bg-accent text-secondary shadow-xl mb-10">
                     <figure class="">
                         <img src={img2} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -33,7 +33,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card bg-accent text-secondary shadow-xl mb-10">
+                <div class="card w-96 bg-accent text-secondary shadow-xl mb-10">
                     <figure class="">
                         <img src={img1} alt="Shoes" class="rounded-xl" />
                     </figure>

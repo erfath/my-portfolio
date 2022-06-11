@@ -13,10 +13,11 @@ function App() {
     <div className="bg-neutral">
       <Navbar>
         <Routes>
-          <Route path='/home' element={<Home></Home>}></Route>
-          <Route path='/about' element={<About></About>}></Route>
-          <Route path='/contact' element={<Contact></Contact>}></Route>
-          <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+          <Route path='home' element={<Home></Home>}></Route>
+          <Route path='/' element={<Home></Home>}></Route>
+          <Route path='about' element={<About></About>}></Route>
+          <Route path='contact' element={<Contact></Contact>}></Route>
+          <Route path="blogs" element={<Blogs></Blogs>}></Route>
         </Routes>
       </Navbar>
     </div>

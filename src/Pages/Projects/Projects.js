@@ -8,8 +8,8 @@ const Projects = () => {
     return (
         <div className='lg:p-20'>
             <h2 className=' text-4xl text-white py-10 font-serif font-semibold'>My Recent Projects</h2>
-            <div className='lg:grid grid-cols-3'>
-                <div class="card w-96 bg-accent text-secondary shadow-xl">
+            <div className='lg:flex flex-row justify-around gap-20'>
+                <div class="card bg-accent text-secondary shadow-xl mb-10">
                     <figure class="">
                         <img src={img3} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -21,7 +21,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card w-96 bg-accent text-secondary shadow-xl">
+                <div class="card bg-accent text-secondary shadow-xl mb-10">
                     <figure class="">
                         <img src={img2} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -33,13 +33,13 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div class="card w-96 bg-accent text-secondary shadow-xl">
+                <div class="card bg-accent text-secondary shadow-xl mb-10">
                     <figure class="">
                         <img src={img1} alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title text-white">Biker's World</h2>
-                        <p>It’s a web application for warehouses. Dealer can manage his warehouse easily.</p>
+                        <p>It's a web application for warehouses. Dealer can manage his warehouse easily.</p>
                         <div class="card-actions">
                             <button class="btn px-10 rounded-full btn-nuetral border-info ">Explore Now</button>
                         </div>

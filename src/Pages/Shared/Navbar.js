@@ -36,14 +36,16 @@ const Navbar = () => {
                 <About></About>
                 <Projects></Projects>
                 <GetInTouch></GetInTouch>
-                <Footer></Footer>                
+                <Footer></Footer>
             </div>
             <div class="drawer-side">
                 <label for="my-drawer-3" class="drawer-overlay"></label>
                 <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
                     {/* <!-- Sidebar content here --> */}
-                    <li><a>Sidebar Item 1</a></li>
-                    <li><a>Sidebar Item 2</a></li>
+                    <li><NavLink to="/home">Home</NavLink></li>
+                    <li><NavLink to="/blogs">Blogs</NavLink></li>
+                    <li><NavLink to="/about">About Me</NavLink></li>
+                    <li><NavLink to="/contact">Contact Me</NavLink></li>
 
                 </ul>
 

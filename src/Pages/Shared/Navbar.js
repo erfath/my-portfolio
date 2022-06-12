@@ -7,7 +7,7 @@ import Home from '../Home/Home';
 import Projects from '../Projects/Projects';
 import logo from '../../Images/epbg.png'
 
-const Navbar = () => {
+const Navbar = ({children}) => {
     return (
         <div class="drawer">
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
@@ -31,12 +31,8 @@ const Navbar = () => {
                         </label>
                     </div>
                 </div>
-                {/* <!-- Page content here --> */}
-                <Home></Home>
-                <About></About>
-                <Projects></Projects>
-                <GetInTouch></GetInTouch>
-                <Footer></Footer>
+                {/* <!-- Page content here --> */}      
+                {children}          
             </div>
             <div class="drawer-side">
                 <label for="my-drawer-3" class="drawer-overlay"></label>

@@ -1,10 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import About from '../About/About';
-import Footer from '../Footer/Footer';
-import GetInTouch from '../GetInTouch/GetInTouch';
-import Home from '../Home/Home';
-import Projects from '../Projects/Projects';
+import { NavLink } from 'react-router-dom';
 import logo from '../../Images/epbg.png'
 
 const Navbar = ({children}) => {
@@ -13,15 +8,14 @@ const Navbar = ({children}) => {
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content flex flex-col">
                 {/* <!-- Navbar --> */}
-                <div class="w-full navbar sticky top-0 z-50 bg-neutral text-secondary font-semibold">
+                <div class="w-full navbar lg:h-16 sticky top-0 z-50 bg-neutral text-secondary font-semibold">
 
                     <div class="flex-1 px-2 mx-2"><img src={logo} className='w-40' alt="" /></div>
                     <div class="flex-none hidden lg:block">
-                        <ul class="menu menu-horizontal">
+                        <ul class="menu menu-horizontal text-white">
                             {/* <!-- Navbar menu content here --> */}
                             <li><NavLink to="/home">Home</NavLink></li>
                             <li><NavLink to="/blogs">Blogs</NavLink></li>
-                            <li><NavLink to="/about">About Me</NavLink></li>
                             <li><NavLink to="/contact">Contact Me</NavLink></li>
                         </ul>
                     </div>

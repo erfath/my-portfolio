@@ -8,6 +8,9 @@ import Blogs from './Pages/Blogs/Blogs';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import NotFound from './Pages/NotFound/NotFound';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import GetInTouch from './Pages/GetInTouch/GetInTouch';
 
 function App() {
   return (
@@ -16,13 +19,13 @@ function App() {
         <Routes>
           <Route path='home' element={<Home></Home>}></Route>
           <Route path='/' element={<Home></Home>}></Route>
-          <Route path='about' element={<About></About>}></Route>
-          <Route path='contact' element={<Contact></Contact>}></Route>
+          <Route path='contact' element={<GetInTouch></GetInTouch>}></Route>
           <Route path="blogs" element={<Blogs></Blogs>}></Route>
           <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
         <Footer></Footer>
       </Navbar>
+      <ToastContainer />
     </div>
   );
 }

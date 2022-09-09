@@ -49,8 +49,8 @@ const GetInTouch = () => {
         <div>
             <div className="lg:grid lg:grid-cols-2 lg:gap-6 py-5  bg-slate-800">
                 <div className="flex flex-col justify-center text-center lg:p-40 md:text-left">
-                    <h2 className="uppercase lg:text-3xl md:text-4xl pb-5 text-teal-200 text-2xl">DON'T BE SHY</h2>
-                    <p className=" lg:font-semibold lg:text-xl text-gray-400">Feel free to get in touch with me. I am always open to discuss new projects, cretive ideas or oppottunities to be part of your visions.</p>
+                    <h2 className="uppercase lg:text-3xl font-semibold md:text-4xl pb-5 text-teal-200 text-2xl">DON'T BE SHY</h2>
+                    <p className=" lg:font-semibold lg:text-xl text-gray-400">Feel free to get in touch with me. I am always open to discussing new projects, cretive ideas or opportunities to be part of your visions.</p>
                     <div className='flex gap-20 mt-10 lg:p-0 p-5'>
                         <div className='flex flex-col justify-start items-start'>
                             <p className='text-white'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-yellow-500">

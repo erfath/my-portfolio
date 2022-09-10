@@ -4,6 +4,10 @@ import img2 from '../../Images/banner3.jpg'
 import img3 from '../../Images/four.jpg'
 import img4 from '../../Images/first_banner (1).jpg'
 import './Projects.css'
+import LensKingModal from './LensKingModal';
+import BikersWorldModal from './BikersWorldModal';
+import AutoPartsModal from './AutoPartsModal';
+import PerformCampModal from './PerformCampModal';
 
 const Projects = () => {
     return (
@@ -18,8 +22,9 @@ const Projects = () => {
                         <h2 class="card-title text-yellow-500">PerformCamp</h2>
                         <p class="text-white">A full stack project on A Company employee’s performance based evaluation. It was a team project. There are two live sites. One for companies own, another is demo for clients.</p>
                         <div class="card-actions">
-                            <a href='https://bikers-world-43bda.web.app/' rel='' target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700 ">Explore Now</a>
+                            <label htmlFor="PerformCampModal" target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700 ">Explore Now</label>
                         </div>
+                        <PerformCampModal></PerformCampModal>
                     </div>
                 </div>
                 <div class="card lg:w-96 bg-slate-800 text-secondary shadow-xl mb-10 zoomIn">
@@ -30,8 +35,9 @@ const Projects = () => {
                         <h2 class="card-title text-yellow-500">Bro's Auto Parts</h2>
                         <p class="text-white">A website for Car parts manufacturer. Customer's can easily make orders.</p>
                         <div class="card-actions">
-                            <a href='https://car-parts-bf247.web.app' target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700">Explore Now</a>
+                            <label htmlFor="AutoPartsModal" target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700">Explore Now</label>
                         </div>
+                        <AutoPartsModal></AutoPartsModal>
                     </div>
                 </div>
                 <div class="card lg:w-96 bg-slate-800 text-secondary shadow-xl mb-10 zoomIn">
@@ -42,8 +48,9 @@ const Projects = () => {
                         <h2 class="card-title text-yellow-500">Biker's World</h2>
                         <p class="text-white">It's a web application for warehouses. Dealer can manage his warehouse easily.</p>
                         <div class="card-actions">
-                            <a href='https://bikers-world-43bda.web.app/' rel='' target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700 ">Explore Now</a>
+                            <label htmlFor="BikersWorldModal" target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700 ">Explore Now</label>
                         </div>
+                        <BikersWorldModal></BikersWorldModal>
                     </div>
                 </div>
                 <div class="card lg:w-96 bg-slate-800 text-secondary shadow-xl mb-10 zoomIn">
@@ -54,9 +61,10 @@ const Projects = () => {
                         <h2 class="card-title text-yellow-500">The Lens King</h2>
                         <p class="text-white">A Photographer's professional website. Clients can make reservation for photoshoot.</p>
                         <div class="card-actions">
-                            <a href='https://the-lens-king.web.app/' target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700">Explore Now</a>
+                            <label htmlFor="my-modal-3" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700">Explore Now</label>
                         </div>
-                    </div>
+                        <LensKingModal></LensKingModal>
+                    </div>                   
                 </div>
             </div>
         </div>

@@ -24,7 +24,7 @@ const Projects = () => {
                         <div class="card-actions">
                             <label htmlFor="PerformCampModal" target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700 ">Explore Now</label>
                         </div>
-                        <PerformCampModal></PerformCampModal>
+                        
                     </div>
                 </div>
                 <div class="card lg:w-96 bg-slate-800 text-secondary shadow-xl mb-10 zoomIn">
@@ -37,7 +37,7 @@ const Projects = () => {
                         <div class="card-actions">
                             <label htmlFor="AutoPartsModal" target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700">Explore Now</label>
                         </div>
-                        <AutoPartsModal></AutoPartsModal>
+                        
                     </div>
                 </div>
                 <div class="card lg:w-96 bg-slate-800 text-secondary shadow-xl mb-10 zoomIn">
@@ -50,7 +50,7 @@ const Projects = () => {
                         <div class="card-actions">
                             <label htmlFor="BikersWorldModal" target="_blank" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700 ">Explore Now</label>
                         </div>
-                        <BikersWorldModal></BikersWorldModal>
+                       
                     </div>
                 </div>
                 <div class="card lg:w-96 bg-slate-800 text-secondary shadow-xl mb-10 zoomIn">
@@ -63,7 +63,7 @@ const Projects = () => {
                         <div class="card-actions">
                             <label htmlFor="my-modal-3" class="btn px-10 bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700">Explore Now</label>
                         </div>
-                        <LensKingModal></LensKingModal>
+                       
                     </div>                   
                 </div>
             </div>

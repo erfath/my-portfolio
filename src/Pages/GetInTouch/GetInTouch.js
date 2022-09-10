@@ -78,7 +78,7 @@ const GetInTouch = () => {
                         <TextareaField value={values.message} handleChange={handleChange} label="Your message here" name="message" />
                         <div className="flex justify-center">
                             <button type="submit"
-                                className="btn mt-4 lg:w-80 w-full font-bold rounded-lg bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-purple-700 px-4 py-2"
+                                className="btn mt-4 lg:w-80 w-full font-bold rounded-lg bg-yellow-500 text-black hover:bg-slate-900 hover:text-white hover:border-yellow-500 px-4 py-2"
                             >Send
                             </button>
                         </div>

@@ -1,0 +1,14 @@
+.zoomIn {
+    transition: transform .5s, filter 1.5s ease-in-out;
+   
+}
+
+/* .zoomIn img {
+    width: 100%;
+    
+} */
+
+.zoomIn:hover {
+  
+    transform: scale(1.1);
+}

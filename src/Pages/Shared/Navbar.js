@@ -20,8 +20,8 @@ const Navbar = ({children}) => {
                         </ul>
                     </div>
                     <div class="flex-none lg:hidden">
-                        <label for="my-drawer-3" class="btn btn-square btn-ghost">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        <label for="my-drawer-3" class="btn btn-square bg-gray-300 btn-ghost">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block text-black w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                         </label>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const Navbar = ({children}) => {
             </div>
             <div class="drawer-side">
                 <label for="my-drawer-3" class="drawer-overlay"></label>
-                <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
+                <ul class="menu p-4 overflow-y-auto w-80 bg-slate-300">
                     {/* <!-- Sidebar content here --> */}
                     <li><NavLink to="/home">Home</NavLink></li>
                     <li><NavLink to="/blogs">Blogs</NavLink></li>
